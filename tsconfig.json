@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"lib": [
+			"dom",
+			"es2021",
+		],
+		"resolveJsonModule": true,
+		"moduleResolution": "node",
+		"target": "esnext",
+		"module": "NodeNext",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"types": [],
+		"noErrorTruncation" : true
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "**/node_modules/*", "dist", "**/*.js"]
+}
